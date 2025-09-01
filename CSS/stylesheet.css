@@ -1,0 +1,107 @@
+/* Reset */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #00529F;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+/* Logo */
+.header-logo {
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 50px;
+    height: 80%;
+}
+
+/* Input field */
+.header-inputfield {
+    border-radius: 25px;
+    margin-left: 20px;
+    width: 250px;
+    margin-top: -35px;
+}
+
+/* Search bar */
+.header-searchbar {
+    margin-left: -242px;
+    margin-top: -26px;
+}
+
+/* Navigation */
+.header-links {
+    list-style: none;
+    float: right;
+    margin-right: 100px;
+}
+
+.header-links li {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    margin-left: 45px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+.header-links a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.header-links li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: red;
+    transition: 0.3s ease-in-out;
+}
+
+.header-links li:hover::after {
+    width: 100%;
+}
+.hiddenblog {
+    display: none;
+    position: absolute;
+    left: 30;
+    background: #00529F;
+    padding: 15px;
+    list-style: none;
+    min-width: 120px;
+    border-radius: 8px;
+    z-index: 200;
+}
+
+.blog:hover .hiddenblog {
+    display: block;
+}
+
+.hiddenblog li {
+    /* display: block; */
+    margin: auto;
+}
+
+.hiddenblog a {
+    display: block;
+    padding: 10px 20px;
+   
+}
+
+
+
+
+
