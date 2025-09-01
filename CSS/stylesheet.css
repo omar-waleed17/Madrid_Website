@@ -98,8 +98,53 @@ body {
     background-position: center;
     background-attachment: scroll;
     background-size: cover;
+    position: relative;
+}
+.We-overlay
+{
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+.We-content
+{
+    text-align: center;
+    width:60%;
+    color:#fff;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)
+}
+.We-h2
+{
 
-    
+font-size: 90px;
+}
+.We-p
+{
+    margin-top: -70px;
+font-size: 24px;
+}
+.We-btn
+{
+    border: none;
+    font-size: 20px;
+    border-radius:10px;
+    width:130px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top:-10px;
+}
+.We-btn-1
+{
+    background-color: #00529F;
+}
+.We-btn-1:hover,.We-btn-2:hover{
+background-color: rgba(255, 235, 205, 0.5); 
 }
 
 
