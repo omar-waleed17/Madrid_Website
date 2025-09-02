@@ -4,7 +4,7 @@ body {
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
     height: 4000px;
-    background-color: red;
+    background-color: green;
 }
 
 .header {
@@ -256,7 +256,7 @@ background-color: rgba(0, 82, 160, 0.5);
 }
 .Ourlegends-Container {
     width: 100%;
-    min-height: 1200px;
+    min-height: 950px;
     background-color: #E6F0FA;
 
 }
@@ -403,6 +403,110 @@ background-color: rgba(0, 82, 160, 0.5);
     margin-top: 10px;
     color: #FFD700;
 }
+.Whychooseus-Container {
+    width: 100%;
+    min-height: 950px;
+    background-color: #FFFFFF;
+}
 
+.Whychooseus-Parent {
+    overflow: auto;
+}
+.Whychooseus-h2 {
+    word-spacing: 10px;
+    font-size: 60px;
+    margin: 80px 0 10px 0;
+    color: #0052A0;
+    text-align: center;
+}
+.Whychooseus-p {
+    width: 200px;
+    background-color: #FFD700;
+    height: 4px;
+    margin: 10px auto 0 auto;
+    border: none;
+}
+.Whychooseus-One,
+.Whychooseus-Two,
+.Whychooseus-Three,
+.Whychooseus-Four,
+.Whychooseus-Five,
+.Whychooseus-Six {
+    float: left;
+    width: 24%;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 5%;
+    border-radius: 10px;
+    position: relative;
+    background-color: #FFFFFF;
+    color: #0052A0;
+    border: 2px solid #0052A0;
+    box-sizing: border-box;
+padding-left: 9px;
+    /* adjust as needed */
+    padding-right: 17px;
+    /* adjust as needed */
+}
+.Whychooseus-One:after,
+.Whychooseus-Two:after,
+.Whychooseus-Three:after,
+.Whychooseus-Four:after,
+.Whychooseus-Five:after,
+.Whychooseus-Six:after {
+content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+background-color: rgba(0, 82, 160, 0.6);
+    opacity: 0;
+    transition: width 0.5s, height 0.5s, opacity 0.5s;
+}
+.Whychooseus-One:hover::after,
+.Whychooseus-Two:hover::after,
+.Whychooseus-Three:hover::after,
+.Whychooseus-Four:hover::after,
+.Whychooseus-Five:hover::after,
+.Whychooseus-Six:hover::after
+{
+    width: 100%;
+        height: 100%;
+        opacity: 0.8;
+    }
 
+.Whychooseus-One,
+.Whychooseus-Four {
+    margin-left: 9%;
+}
 
+.Whychooseus-Three,
+.Whychooseus-Six {
+    margin-right: 9%;
+}
+.Whychooseus-Four,
+.Whychooseus-Five,
+.Whychooseus-Six {
+    margin-top: 50px;
+}
+.Whychooseus-icon {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-size: 42px;
+    color: #FFD700;
+}
+.Whychooseus-secondh2 {
+    font-size: 42px;
+    margin-left: 90px;
+    margin-top: 25px;
+    color: #0052A0;
+}
+
+.Whychooseus-secondp {
+    font-size: 27px;
+    margin-left: 90px;
+    margin-top: -16px;
+    color:#333333;
+}
