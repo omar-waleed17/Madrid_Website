@@ -1,9 +1,13 @@
-body {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
-    height: 4000px;
+ 
+   
+}
+ body{
+    height:6000px;
     background-color: green;
 }
 
@@ -14,6 +18,7 @@ body {
     position: fixed;
     top: 0;
     z-index: 100;
+    opacity: 0.8;
 }
 
 .header-logo {
@@ -28,12 +33,12 @@ body {
     margin-left: 20px;
     width: 250px;
     height: 40px;
-    margin-top: -55px;
+    margin-top: -58px;
 }
 
 .header-searchbar {
     margin-left: -242px;
-    margin-top: -28px;
+    margin-top: -32px;
 }
 
 .header-links {
@@ -48,7 +53,7 @@ body {
     color: #fff;
     font-size: 28px;
     margin-left: 45px;
-    margin-top: -1px;
+    margin-top: 12px;
     cursor: pointer;
 }
 
@@ -135,7 +140,7 @@ body {
 }
 
 .We-p {
-    margin-top: -50px;
+    margin-top: 10px;
     font-size: 24px;
     opacity: 0.8;
 
@@ -148,7 +153,7 @@ body {
     width: 130px;
     height: 55px;
     margin-left: 14px;
-    margin-top: -10px;
+    margin-top: 10px;
 }
 
 .We-btn-1 {
@@ -192,7 +197,7 @@ body {
     height: 300px;
     border-radius: 10px;
 border: 2px solid #D4AF37;
-    margin-top: 80px;
+    margin-top: 90px;
     margin-left: 6.5%;
     position: relative;
     background-color: #FFFFFF;
@@ -208,7 +213,8 @@ border: 2px solid #D4AF37;
 .Whatwedofootball
 {
     font-size:50px;
-    margin-top: 25px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 
 }
 .WhatwedoSecondh2
@@ -219,12 +225,14 @@ border: 2px solid #D4AF37;
 }
 .Whatwedop
 {
-    margin-top: -14px;
+    margin-top: 16px;
     font-size: 25px;
     color: #0052A0;
+    margin-bottom: 30px;
 }
 .Whatwedoa
 {
+    
      text-decoration: none;
     font-size: 25px;
     color:#D4AF37;
@@ -405,12 +413,13 @@ background-color: rgba(0, 82, 160, 0.5);
 }
 .Whychooseus-Container {
     width: 100%;
-    min-height: 950px;
+    min-height: 1900px;
     background-color: #FFFFFF;
 }
 
 .Whychooseus-Parent {
     overflow: auto;
+   
 }
 .Whychooseus-h2 {
     word-spacing: 10px;
@@ -444,9 +453,7 @@ background-color: rgba(0, 82, 160, 0.5);
     border: 2px solid #0052A0;
     box-sizing: border-box;
 padding-left: 9px;
-    /* adjust as needed */
     padding-right: 17px;
-    /* adjust as needed */
 }
 .Whychooseus-One:after,
 .Whychooseus-Two:after,
@@ -488,7 +495,7 @@ background-color: rgba(0, 82, 160, 0.6);
 .Whychooseus-Four,
 .Whychooseus-Five,
 .Whychooseus-Six {
-    margin-top: 50px;
+    margin-top: 60px;
 }
 .Whychooseus-icon {
     position: absolute;
@@ -500,13 +507,105 @@ background-color: rgba(0, 82, 160, 0.6);
 .Whychooseus-secondh2 {
     font-size: 42px;
     margin-left: 90px;
-    margin-top: 25px;
+    margin-top: 23px;
     color: #0052A0;
 }
 
 .Whychooseus-secondp {
     font-size: 27px;
     margin-left: 90px;
-    margin-top: -16px;
+    margin-top: 10px;
     color:#333333;
+}
+.Whytrustus-bigdiv {
+    height: 650px;
+    width: 82%;
+    border: 2px solid #FFFFFF;
+    margin: auto;
+    margin-top: 220px;
+    overflow: auto;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+}
+
+.Whytrustus-smalleftdiv {
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid #0052A0; */
+    float: left;
+    padding-top: 50px;
+}
+
+.Whytrustus-smallrightdiv {
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid #FFD700; */
+    float: left;
+    overflow: auto;
+}
+
+.Whytrustus-h2 {
+    font-weight: bold;
+    font-size: 50px;
+    word-spacing: 5px;
+    text-transform: capitalize;
+    color: #0052A0;
+}
+
+.Whytrustus-hr {
+    width: 90px;
+    background-color: #FFD700;
+    height: 4px;
+    margin-top: 10px;
+}
+
+.Whytrustus-text {
+    font-size: 24px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    /* color: #333333; */
+   
+}
+
+.Whytrustus-check {
+    color: #0052A0;
+    font-size: 24px;
+}
+
+.Whytrustus-span {
+    font-size: 24px;
+}
+
+.Whytrustus-img {
+    width: 500px;
+    height: 600px;
+    margin-left: 282px;
+}
+
+.Whytrustus-circle1,
+.Whytrustus-circle2,
+.Whytrustus-circle3 {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #0052A0;
+    /* RM blue dots */
+    float: left;
+    margin-top: 14px;
+}
+
+.Whytrustus-circle1 {
+    margin-left: 470px;
+}
+
+.Whytrustus-circle2,
+.Whytrustus-circle3 {
+    margin-left: 15px;
+    background-color: #CCCCCC;
+}
+.Whytrustus-circle2:hover,
+.Whytrustus-circle3:hover {
+    background-color: #0052A0;
+
+  
 }
