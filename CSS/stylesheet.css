@@ -7,7 +7,7 @@
    
 }
  body{
-    height:6000px;
+    height:8000px;
     background-color: green;
 }
 
@@ -653,7 +653,7 @@ background-color: rgba(0, 82, 160, 0.6);
 }
 .Prices-container {
     width: 100%;
-    height: 1800px;
+    height: 1050px;
     background-color: #FFFFFF;
 }
 
@@ -766,5 +766,91 @@ background-color: rgba(0, 82, 160, 0.6);
         background-color: rgba(0, 82, 160, 0.5);
      
 }
+.heads-container
+{
+    width: 100%;
+    height:600px;
+background-image: url(../Images/team2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.heads-parent
+{
+    overflow: auto;
+}
+.heads-left,.heads-right {
+    position: relative;
+    height: 100%;
+    width: 40%;
+    text-align: center;
+    float: left;
+   
+}
+.heads-right{
+    margin-left: 20px;
+}
+.heads-content-div
+{
+       position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width:1000px;
+        padding-top: 50px;
+        
+}
+
+ .heads-xabi {
+    width:130px;
+    position: absolute;
+    height:130px;
+    border-radius: 50%;
+    margin-left:-100px;
+    margin-top: -50px;
+    border: 3px solid #FFD700;
+} 
+.heads-name,.heads-name-2
+{
+    font-size: 40px;
+    margin-top: -20px;
+   
+        color: #FFD700;
+            font-weight: bold;
+
+}
+.heads-name
+{
+margin-left: 340px;
+}
+.heads-name-2 {
+    margin-left: 420px;
+}
+.heads-p
+{
+    line-height: 29px;
+    margin-left: 400px;
+    color: #FFFFFF;
+        /* light gray for paragraph */
+    font-size: 20px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    text-align: left;
+}
+.heads-title2,.heads-title2-2
+{
+    margin-top: 5px;
+    color:blanchedalmond;
+    font-size: 30px;
+}
+.heads-title2
+{
+    margin-left: 220px;
+}
+.heads-title2-2 {
+    margin-left: 255px;
+}
+
 
       
