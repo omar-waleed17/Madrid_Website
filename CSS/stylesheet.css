@@ -7,8 +7,8 @@
    
 }
  body{
-    height:8000px;
-    background-color: green;
+    height:10000px;
+    background-color:white;
 }
 
 .header {
@@ -850,6 +850,150 @@ margin-left: 340px;
 }
 .heads-title2-2 {
     margin-left: 255px;
+}
+
+.our-team-container
+{
+    width:80%;
+    height: 900px;
+    margin:auto;  
+    background-color: white;
+}
+ .our-team-parent
+{
+overflow: auto;
+}
+  .our-team-h2
+{
+    word-spacing: 10px;
+        font-size: 60px;
+        margin-top: 30px;
+        color: #0052A0;
+        text-align: center;
+} 
+.our-team-hr
+{
+    width: 170px;
+        background-color: #FFD700;
+        height: 4px;
+        margin: 10px auto 0 auto;
+}
+.our-team-child1,.our-team-child2,.our-team-child3
+{
+        background-color: white;
+            /* soft silver fill */
+            border: 2px solid #D4AF37;
+            /* gold border */
+            position: relative;
+            float: left;
+            height: 450px;
+            border-radius: 10px;
+            width: 30%;
+            margin-top: 80px;
+            padding: 30px 10px;
+            
+}
+.our-team-child1:after,.our-team-child2:after,.our-team-child3:after
+{
+    content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 0%;
+        opacity: 0;
+        transition: 0.5s;
+}
+.our-team-child1:hover::after,.our-team-child2:hover::after,.our-team-child3:hover::after
+{
+width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background-color: rgba(0, 82, 160, 0.3);
+    /* Real Madrid blue overlay */
+}
+
+.our-team-child2
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.our-team-img
+{
+    width: 90%;
+        margin: auto;
+        position: relative;
+}
+.our-team-actual-img
+{
+  
+width: 100%;
+height:300px;
+
+}
+.our-team-icons
+{
+position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    visibility: hidden;
+}
+.our-team-child1:hover .our-team-icons,
+.our-team-child2:hover .our-team-icons,
+.our-team-child3:hover .our-team-icons {
+    visibility: visible;
+}
+.our-team-child1:hover .our-team-player-name,
+.our-team-child2:hover .our-team-player-name,
+.our-team-child3:hover .our-team-player-name {
+color: #D4AF37;
+  
+}
+.our-team-child1:hover .our-team-player-info,
+.our-team-child2:hover .our-team-player-info,
+.our-team-child3:hover .our-team-player-info {
+color: #0052A0;
+}
+.our-team-icons a
+{
+    display: block;
+        width: 60px;
+        height: 60px;
+       
+        text-align: center;
+        margin-left: auto;
+       
+    
+}
+.our-team-icons a i {
+    
+    line-height: 60px;
+    font-size: 22px;
+    
+    
+}
+.our-team-info
+{
+
+    
+    text-align: center;
+    padding-top: 20px;
+}
+.our-team-player-name {
+    font-size: 30px;
+color: #0052A0;
+
+    font-weight: bold;
+}
+.our-team-player-info
+{
+margin-top: 20px;
+    font-size: 30px;
+    color: #333;
 }
 
 
