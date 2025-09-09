@@ -7,7 +7,7 @@
    
 }
  body{
-    height:10000px;
+
     background-color:white;
 }
 
@@ -882,14 +882,14 @@ overflow: auto;
 }
 .our-team-child1,.our-team-child2,.our-team-child3
 {
-        background-color: white;
-            /* soft silver fill */
-            border: 2px solid #D4AF37;
-            /* gold border */
+        /* background: linear-gradient(to bottom right, #0052A0, #ffffff); */
+        /* background: linear-gradient(to bottom right, #F5F5F5, #E0E0E0); */
+        background-color: #D9D9D9;
+            /* border: 2px solid #D4AF37; */
             position: relative;
             float: left;
             height: 480px;
-            border-radius: 10px;
+            border-radius: 20px;
             width: 30%;
             margin-top: 80px;
             padding: 30px 10px;
@@ -901,6 +901,7 @@ overflow: auto;
         position: absolute;
         top: 0;
         left: 0;
+        border-radius: 20px;
         width: 100%;
         height: 0%;
         opacity: 0;
@@ -911,8 +912,8 @@ overflow: auto;
 width: 100%;
     height: 100%;
     opacity: 0.5;
-    background-color: rgba(0, 82, 160, 0.3);
-    /* Real Madrid blue overlay */
+background-color: rgba(0, 0, 0, 0.6);
+
 }
 
 .our-team-child2
@@ -967,7 +968,7 @@ color: #0052A0;
         height: 60px;
         text-align: center;
         margin-left: auto;
-        background-color:
+       
 }
 .our-team-icons a i {
     line-height: 60px;
@@ -987,8 +988,159 @@ color: #0052A0;
 {
 margin-top: 20px;
     font-size: 30px;
-    color: #333;
+    color: black;
 }
+.recent-news-container
+{
+    width: 80%;
+        height: 900px;
+        margin: auto;
+       
+}
+.recent-news-title
+{
+word-spacing: 10px;
+    font-size: 70px;
+    margin-top: 80px;
+    color: #0052A0;
+    text-align: center;
+    text-transform: capitalize;
+}
+.recent-news-hr
+{
+width: 170px;
+    background-color: #FFD700;
+    height: 4px;
+    margin: 10px auto 0 auto;
+}
+.recent-news-child1,.recent-news-child2,.recent-news-child3
+{
+    background-color: white;
+        border: 2px solid #D4AF37;
+        position: relative;
+        float: left;
+        height: 660px;
+        border-radius: 20px;
+        width: 30%;
+        margin-top: 80px;
+        padding: 30px 10px;
+        overflow: hidden;
+        z-index: 0;
+}
+.recent-news-child2
+{
+    margin-left:  5%;
+    margin-right: 5%;
+}
+.recent-news-child1:after,.recent-news-child2:after,.recent-news-child3:after
+{
+    content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 0%;
+        opacity: 0;
+        transition: 0.5s;
+    background-color: rgba(10, 30, 64, 0.6);
+        z-index: 1;
+        
+}
+.recent-news-child1:hover::after,.recent-news-child2:hover::after,.recent-news-child3:hover::after
+{
+height: 100%;
+    opacity: 0.5;
+}
+.recent-news-child1:hover .recent-news-info-h2,
+.recent-news-child2:hover .recent-news-info-h2,
+.recent-news-child3:hover .recent-news-info-h2
+{
+color: #0A1E40;
+}
+.recent-news-child1:hover .recent-news-info-p,
+.recent-news-child2:hover .recent-news-info-p,
+.recent-news-child3:hover .recent-news-info-p
+{
+color: black
+}
+.recent-news-image
+{
+width: 80%;
+    margin: auto;
+    height: 350px;
+    position: relative;
+    z-index: 2;
+     
+}
+
+.recent-news-actual-img
+{
+    width: 100%;
+        height: 350px;
+        border-radius: 10px;
+}
+.recent-news-icons
+{
+    padding-top:20;
+    overflow: auto;
+    width: 80%;
+    margin: auto;
+  
+}
+
+.recent-news-icon-div1,.recent-news-icon-div2,.recent-news-icon-div3
+{
+    float: left;
+    width:30%;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 8;
+}
+.recent-news-icon-div2
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.recent-news-icons span
+{
+    font-weight:bold;
+}
+.recent-news-icons i {
+    color: #0A1E40;
+}
+.recent-news-info
+{
+    margin-top: 15px;
+    
+}
+.recent-news-info-h2
+{
+    font-size: 30px;
+    text-align: center;
+}
+.recent-news-info-p
+{
+    margin-top: 20px;
+    font-size: 22px;
+    color: #4A4A4A;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.recent-news-info-a
+{
+    font-size: 24px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+.recent-news-child1:hover .recent-news-info-a,
+.recent-news-child2:hover .recent-news-info-a,
+.recent-news-child3:hover .recent-news-info-a{
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+
 
 
       
