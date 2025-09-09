@@ -854,6 +854,7 @@ margin-left: 340px;
 
 .our-team-container
 {
+    padding-top: 120;
     width:80%;
     height: 900px;
     margin:auto;  
@@ -870,6 +871,7 @@ overflow: auto;
         margin-top: 30px;
         color: #0052A0;
         text-align: center;
+        text-transform: capitalize;
 } 
 .our-team-hr
 {
@@ -886,7 +888,7 @@ overflow: auto;
             /* gold border */
             position: relative;
             float: left;
-            height: 450px;
+            height: 480px;
             border-radius: 10px;
             width: 30%;
             margin-top: 80px;
@@ -938,7 +940,7 @@ position: absolute;
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.4);
 
     visibility: hidden;
 }
@@ -960,33 +962,25 @@ color: #0052A0;
 }
 .our-team-icons a
 {
-    display: block;
+       display: block;
         width: 60px;
         height: 60px;
-       
         text-align: center;
         margin-left: auto;
-       
-    
+        background-color:
 }
 .our-team-icons a i {
-    
     line-height: 60px;
-    font-size: 22px;
-    
-    
+    font-size: 30px;
 }
 .our-team-info
 {
-
-    
     text-align: center;
     padding-top: 20px;
 }
 .our-team-player-name {
     font-size: 30px;
 color: #0052A0;
-
     font-weight: bold;
 }
 .our-team-player-info
