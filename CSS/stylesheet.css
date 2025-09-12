@@ -232,29 +232,32 @@ border: 2px solid #D4AF37;
 {
     margin-top: 16px;
     font-size: 25px;
-    color: #0052A0;
+  
     margin-bottom: 30px;
+    color: rgb(109, 108, 108);
+
 }
 .Whatwedoa
 {
     
      text-decoration: none;
     font-size: 25px;
-    color:#D4AF37;
+    color:black;
+    cursor: pointer;
     
 }
 .Whatwedoone::after,
 .Whatwedotwo::after,
 .Whatwedothree::after {
     content: "";
+    border-radius: 8px;
     position: absolute;
     top: 0;
     left: 0;
     width:0;
     height: 0;
-background-color: rgba(0, 82, 160, 0.5);
-
-   
+background-color: rgba(0, 82, 160, 0.4);
+    pointer-events: none;
    opacity: 0;
   
 }
@@ -267,6 +270,20 @@ background-color: rgba(0, 82, 160, 0.5);
     opacity: 0.5;
     transition: 1s;
 }
+/* Hover effect with different colors */
+.Whatwedoone:hover .WhatwedoSecondh2,
+.Whatwedotwo:hover .WhatwedoSecondh2,
+.Whatwedothree:hover .WhatwedoSecondh2 {
+    color: #D4AF37;
+    /* gold */
+}
+
+.Whatwedoone:hover .Whatwedop,
+.Whatwedotwo:hover .Whatwedop,
+.Whatwedothree:hover .Whatwedop {
+color: #0052A0;
+}
+
 .Ourlegends-Container {
     width: 100%;
     min-height: 950px;
