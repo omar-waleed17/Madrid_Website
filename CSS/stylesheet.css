@@ -338,24 +338,23 @@ color: #0052A0;
     margin-left: 10%;
     background-image: url(../Images/zidane.jpeg);
     background-size: cover;
-    /* background-position: center; */
+   
 }
 .Ourlegends-Two {
     background-image: url(../Images/Raul.jpeg);
     background-size: cover;
-    /* background-position: center; */
+   
 }
 .Ourlegends-Three {
     margin-right: 10%;
     background-image: url(../Images/Hierro.JPEG);
     background-size: cover;
-    /* background-position: center; */
 }
 .Ourlegends-Four {
     margin-left: 10%;
     background-image: url(../Images/Roberto.JPEG);
     background-size: cover;
-    /* background-position: center; */
+  
 }
 .Ourlegends-Five {
     background-image: url(../Images/guti.jpeg);
@@ -382,6 +381,7 @@ color: #0052A0;
     height: 0;
     background-color: rgba(0, 82, 160, 0.6);
     opacity: 0;
+    border-radius: 10px;
     transition: width 0.5s, height 0.5s, opacity 0.5s;
     z-index: 1;
 }
@@ -417,13 +417,17 @@ color: #0052A0;
 .Ourlegends-Six:hover .Ourlegends-Hidden {
     opacity: 1;
 }
+.Ourlegends-Hidden a
+{
+    cursor: pointer;
+}
 .Ourlegends-hiddenh3 {
     font-size: 40px;
     text-transform: uppercase;
     color: #FFD700;
 }
 .Ourlegends-hiddenP {
-    font-size: 20px;
+    font-size: 24px;
     margin-top: 10px;
     color: #FFFFFF;
 
