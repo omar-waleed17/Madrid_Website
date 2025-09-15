@@ -448,18 +448,21 @@ color: #0052A0;
    
 }
 .Whychooseus-h2 {
-    word-spacing: 10px;
+    word-spacing: 0;
     font-size: 60px;
     margin: 80px 0 10px 0;
     color: #0052A0;
     text-align: center;
+    text-transform: capitalize;
+
 }
 .Whychooseus-p {
-    width: 200px;
+    width: 250px;
     background-color: #FFD700;
     height: 4px;
-    margin: 10px auto 0 auto;
+    margin: 10px auto 0 865px;
     border: none;
+    
 }
 .Whychooseus-One,
 .Whychooseus-Two,
@@ -708,17 +711,18 @@ color:black;
 }
 
 .Prices-title {
-    font-size: 60px;
+    font-size: 55px;
     margin-top: 150px;
     text-align: center;
     color: #0052A0;
+    word-spacing: 0;
 }
 
 .Prices-hr {
-    width: 170px;
+    width: 230px;
     background-color: #FFD700;
     height: 4px;
-    margin: 10px auto 0 auto;
+    margin: 10px auto  0 auto;
 }
 
 .Prices-div1,
@@ -755,7 +759,7 @@ color:black;
     border-radius: 50%;
     width: 140px;
     height: 140px;
-    border: 3px solid#0052A0;
+border: 3px solid rgba(0, 82, 160, 0.7);
     padding-top: 30px;
     font-size: 22px;
     color: #FFFFFF;
@@ -809,8 +813,25 @@ color:black;
     width: 100%;
         height: 100%;
         opacity: 0.8;
-        background-color: rgba(0, 82, 160, 0.5);
+        background-color: rgba(0, 82, 160, 0.3);
      
+}
+.Prices-div1:hover .Prices-button,
+.Prices-div2:hover .Prices-button,
+.Prices-div3:hover .Prices-button
+{
+   position: relative;
+   z-index: 22;
+}
+.Prices-div1:hover .Prices-circle,
+.Prices-div2:hover .Prices-circle,
+.Prices-div3:hover .Prices-circle {
+    border: 3px solid rgba(0, 82, 160, 1);
+}
+.Prices-div1:hover .prices-h2,
+.Prices-div2:hover .prices-h2,
+.Prices-div3:hover .prices-h2{
+   color:#0052A0
 }
 .heads-container
 {
