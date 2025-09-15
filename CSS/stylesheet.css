@@ -270,12 +270,12 @@ background-color: rgba(0, 82, 160, 0.4);
     opacity: 0.5;
     transition: 1s;
 }
-/* Hover effect with different colors */
+
 .Whatwedoone:hover .WhatwedoSecondh2,
 .Whatwedotwo:hover .WhatwedoSecondh2,
 .Whatwedothree:hover .WhatwedoSecondh2 {
     color: #D4AF37;
-    /* gold */
+   
 }
 
 .Whatwedoone:hover .Whatwedop,
@@ -493,7 +493,7 @@ content: "";
     left: 0;
     width: 0;
     height: 0;
-background-color: rgba(0, 82, 160, 0.6);
+background-color: rgba(0, 82, 160, 0.3);
     opacity: 0;
     transition: width 0.5s, height 0.5s, opacity 0.5s;
 }
@@ -512,6 +512,24 @@ background-color: rgba(0, 82, 160, 0.6);
 .Whychooseus-One,
 .Whychooseus-Four {
     margin-left: 9%;
+}
+.Whychooseus-One:hover .Whychooseus-secondh2,
+.Whychooseus-Two:hover .Whychooseus-secondh2,
+.Whychooseus-Three:hover .Whychooseus-secondh2,
+.Whychooseus-Four:hover .Whychooseus-secondh2,
+.Whychooseus-Five:hover .Whychooseus-secondh2,
+.Whychooseus-Six:hover .Whychooseus-secondh2
+{
+    color:black;
+}
+.Whychooseus-One:hover .Whychooseus-secondp,
+.Whychooseus-Two:hover .Whychooseus-secondp,
+.Whychooseus-Three:hover .Whychooseus-secondp,
+.Whychooseus-Four:hover .Whychooseus-secondp,
+.Whychooseus-Five:hover .Whychooseus-secondp,
+.Whychooseus-Six:hover .Whychooseus-secondp {
+    color:#0052A0;
+   
 }
 
 .Whychooseus-Three,
@@ -535,13 +553,15 @@ background-color: rgba(0, 82, 160, 0.6);
     margin-left: 90px;
     margin-top: 23px;
     color: #0052A0;
+    font-weight: bold;
 }
 
 .Whychooseus-secondp {
     font-size: 27px;
     margin-left: 90px;
     margin-top: 10px;
-    color:#333333;
+
+color:black;
 }
 .Whytrustus-bigdiv {
     height: 650px;
@@ -1186,12 +1206,11 @@ width: 80%;
 }
 .footer-actual-img
 {
-    margin-top: 34px;
+    margin-top: 30px;
     width:350px;
     height:350px;
     border-radius:10px;
-        border: 4px solid #D4AF37;
-            /* gold border */
+        border: 2px solid #D4AF37;
 }
 .footer-icons ul
 {
@@ -1203,6 +1222,7 @@ text-align: center;
 {
    width:60%;
    margin:auto;
+   margin-top: 4px;
    
 }
 .footer-icons li 
@@ -1211,12 +1231,8 @@ text-align: center;
             width: 80px;
             height: 80px;
             border-radius: 50%;
-        
             background-color: rgba(212, 175, 55, 0.6);
-            /* gold with 40% opacity */
             color: #ffffff;
-            /* icon stays white */
-        
             font-size: 40px;
             text-align: center;
             transition: background-color 0.3s ease;
@@ -1227,7 +1243,6 @@ text-align: center;
 }
 .footer-icons li:hover {
     background-color: rgba(212, 175, 55, 1);
-        /* gold fully solid on hover */
 }
 .copyright
 {
